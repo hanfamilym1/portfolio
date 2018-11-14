@@ -1,28 +1,56 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import route from './route'
+import { HashRouter } from 'react-router-dom'
+import Nav from './Components/Nav/Nav'
+import { CSSTransition, TransitionGroup } from 'react-transition-group'
+import { Parallax, Background } from 'react-parallax'
+import Button from '@material-ui/core/Button';
+import Drawer from '@material-ui/core/Drawer';
+
 
 class App extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      right: false
+    }
+  }
+
+  toggleDrawer = () => {
+    this.setState({
+      right: !this.state.right
+    })
+  }
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
+      <HashRouter>
+        <div >
+          <div className='portfolio'>
+            <Button onClick={this.toggleDrawer} style={{ backgroundColor: '#34ACE0', position: 'absolute', color: 'white', right: '20px', top:'15px'  }}>Menu</Button>
+            <Drawer anchor="right" open={this.state.right} onClose={this.toggleDrawer}>
+              <div
+                tabIndex={0}
+                role="button"
+                onClick={this.toggleDrawer}
+                onKeyDown={this.toggleDrawer}
+                className='nav'
+              >
+                <Nav />
+              </div>
+            </Drawer>
+
+            {route}
+          </div>
+        </div>
+      </HashRouter>
+    )
   }
 }
+
+
+
+
 
 export default App;

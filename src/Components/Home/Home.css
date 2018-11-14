@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Rubik');
+
+
+.Home{
+    width: 100vw;
+    height: 80vh;
+    padding-top: 60px;
+}
+
+#michael{
+    margin: auto;
+    font-family: 'Rubik', sans-serif;
+    font-size: 100px;
+}
+
+#developer{
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+
