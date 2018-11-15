@@ -1,0 +1,40 @@
+.projects{
+    height: 150%;
+    width: 100vw;
+    background-color: #111111;
+}
+
+
+.devbuddy{
+    padding: 50px;
+    background-color: #111111;
+    width: 75vw;
+    height: 25%;
+}
+
+.content{
+    display: flex;
+}
+
+.content2{
+    margin-left: 15px;
+    color: white;
+
+}
+
+.stacky{
+    padding: 50px;
+    background-color: #111111;
+    width: 75vw;
+    height: 25%;
+}
+
+.b{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.ptag{
+    font-size: 13px;
+}

@@ -11,6 +11,7 @@ class Nav extends Component {
             <div class='Nav'>
                 <Link to='/' style={{textDecoration: 'none'}}><Button color="primary" style={{ color: '#34ACE0'}}>Home</Button></Link>
                 <Link to='/project' style={{textDecoration: 'none'}}><Button color="primary"  style={{marginTop: '10px', color: '#34ACE0'}}>Projects</Button></Link>
+                <Link to='/skills' style={{textDecoration: 'none'}}><Button color="primary"  style={{marginTop: '10px', color: '#34ACE0'}}>Skills</Button></Link>
                 <Link to='/about' style={{textDecoration: 'none'}}><Button color="primary" style={{marginTop: '10px', color: '#34ACE0'}}>About</Button></Link>
                 <Link to='/contact' style={{textDecoration: 'none'}}><Button color="primary"  style={{marginTop: '10px', color: '#34ACE0'}}>Contact</Button></Link>
             </div>
