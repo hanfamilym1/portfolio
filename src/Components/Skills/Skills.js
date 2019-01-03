@@ -14,16 +14,40 @@ class Skills extends Component {
 
         return (
             <div class='Skills'>
-                <h1 className='animated zoomIn' style={{color: 'white', margin: 'auto', paddingTop: '100px', paddingBottom: '30px', display: 'flex', justifyContent: 'center', width: '200px'}}>Skills</h1>
-                <div className='animated zoomIn' style={{display: 'flex', justifyContent: 'center'}}>
-                    <img src={react} style={{height:'100px'}} alt=""/>
-                    <img src={redux} style={{height:'100px', marginLeft: '10px'}} alt=""/>
-                    <img src={postgres} style={{height:'100px', marginLeft: '10px'}} alt=""/>
-                    <img src={node} style={{height:'100px', marginLeft: '10px'}} alt=""/>
-                    <img src={javascript} style={{height:'100px', marginLeft: '10px'}} alt=""/>
-                    <img src={html} style={{height:'100px', marginLeft: '10px'}} alt=""/>
-                    <img src={css} style={{height:'100px', marginLeft: '10px'}} alt=""/>
-                    <img src={adobe} style={{height:'100px', marginLeft: '10px'}} alt=""/>
+                <div className='animated zoomIn skills-whole' >
+                    <div className='skills-img'>
+                        <img src={react} className='skills-imgs'alt="" />
+                        <h3 class='title-center' style={{color: 'white'}}>React</h3>
+                        
+                    </div>
+                    <div className='skills-img'>
+                        <img src={redux} className='skills-imgs' alt="" />
+                        <h3 class='title-center'  style={{color: 'white'}}>Redux</h3>
+                    </div>
+                    <div className='skills-img'>
+                        <img src={postgres}className='skills-imgs' alt="" />
+                        <h3 class='title-center'  style={{color: 'white'}}>PostgreSQL</h3>
+                    </div>
+                    <div className='skills-img'>
+                        <img src={node} className='skills-imgs' alt="" />
+                        <h3 class='title-center'  style={{color: 'white'}}>Node.JS</h3>
+                    </div>
+                    <div className='skills-img'>
+                        <img src={javascript} className='skills-imgs' alt="" />
+                        <h3 class='title-center'  style={{color: 'white'}}>Javascript</h3>
+                    </div>
+                    <div className='skills-img'>
+                        <img src={html} className='skills-imgs' alt="" />
+                        <h3 class='title-center'  style={{color: 'white'}}>HTML5</h3>
+                    </div>
+                    <div className='skills-img'>
+                        <img src={css} className='skills-imgs' alt="" />
+                        <h3 class='title-center'  style={{color: 'white'}}>CSS</h3>
+                    </div>
+                    <div className='skills-img'>
+                        <img src={adobe} className='skills-imgs' alt="" />
+                        <h3 class='title-center'  style={{color: 'white'}}>Adobe</h3>
+                    </div>
                 </div>
             </div>
         )

@@ -6,8 +6,8 @@ class Home extends Component {
 
         return (
             <div class='Home'>
-                <div className='animated slideInDown img'>
-                    <img src={img} />
+                <div className='animated slideInDown image'>
+                        <img className='home_image' src={img} />
                     <div className='buttons'>
 
                         <button className='button'><a className='a' href="https://www.linkedin.com/in/michaelhan2/" target='_blank'>Linked In</a>

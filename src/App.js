@@ -26,9 +26,9 @@ class App extends Component {
   render() {
     return (
       <HashRouter>
-        <div >
+        <div>
           <div className='portfolio'>
-            <Button onClick={this.toggleDrawer} style={{ backgroundColor: '#34ACE0', position: 'absolute', color: 'white', right: '20px', top:'15px'  }}>Menu</Button>
+            <Button onClick={this.toggleDrawer} style={{ backgroundColor: '#34ACE0', position: 'absolute', color: 'white', right: '55px', top: '15px', zIndex: '1' }}>Menu</Button>
             <Drawer anchor="right" open={this.state.right} onClose={this.toggleDrawer}>
               <div
                 tabIndex={0}
@@ -40,8 +40,9 @@ class App extends Component {
                 <Nav />
               </div>
             </Drawer>
-
-            {route}
+            
+              {route}
+            
           </div>
         </div>
       </HashRouter>

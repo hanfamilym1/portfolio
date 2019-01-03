@@ -3,7 +3,7 @@
 
 .Home{
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     padding-top: 60px;
 }
 
@@ -18,3 +18,25 @@
     font-size: 50px;
 }
 
+.home_image{
+    width: 400px;
+    margin: auto;
+
+}
+
+
+/* Media Queries */
+
+@media screen and (min-width: 600px){
+    .home_image{
+        width: 600px;
+        transition: .5s ease-in-out;
+    }
+}
+
+@media screen and (min-width: 1020px){
+    .home_image{
+        width: 900px;
+        transition: .5s ease-in-out;
+    }
+}
