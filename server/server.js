@@ -14,4 +14,4 @@ const {
 
 app.use(bodyParser.json())
 
-app.listen(SERVER_PORT, ()=>{console.log(`Server is runnin on Port ${SERVER_PORT}`)})
+app.listen(SERVER_PORT, ()=>{console.log(`Server is running on Port ${SERVER_PORT}`)})
