@@ -1,38 +1,38 @@
-
-.about-main{
-    display:flex;
-    justify-content: center;
+.about-main {
+  display: flex;
+  justify-content: center;
 }
 
-.about-ptag{
-    color: white;
-    font-size: 20px;
+.about-ptag {
+  color: #e76f51;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
 }
 
-.about{
-    width: 200px;
-    margin: auto;
-    padding-top: 200px;
+.about {
+  width: 70%;
+  margin: auto;
+  margin-top: 100px;
 }
 
 /* Media Queries */
 
-@media screen and (min-width: 720px){
-    .about{
-        width: 500px;
-        transition: .3s ease-in-out;
-    }
-    .about-ptag{
-        font-size: 25px;
-    }
+@media screen and (min-width: 720px) {
+  .about {
+    width: 500px;
+    transition: 0.3s ease-in-out;
+  }
+  s .about-ptag {
+    font-size: 20px;
+  }
 }
 
-@media screen and (min-width: 1200px){
-    .about{
-        width: 550px;
-        transition: .3s ease-in-out;
-    }
-    .about-ptag{
-        font-size: 30px;
-    }
+@media screen and (min-width: 1200px) {
+  .about {
+    width: 550px;
+    transition: 0.3s ease-in-out;
+  }
+  .about-ptag {
+    font-size: 25px;
+  }
 }

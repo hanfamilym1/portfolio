@@ -1,21 +1,29 @@
 import React, { Component } from 'react'
 import './Home.css'
-import img from '../../name.png'
+import mikey from '../../michael.JPG'
+import Button from '@material-ui/core/Button';
+import Footer from '../Footer/Footer'
+
 class Home extends Component {
     render() {
 
         return (
-            <div class='Home'>
-                <div className='animated slideInDown image'>
-                        <img className='home_image' src={img} />
-                    <div className='buttons'>
-
-                        <button className='button'><a className='a' href="https://www.linkedin.com/in/michaelhan2/" target='_blank'>Linked In</a>
-                        </button>
-                        <button className='button'><a className='a' href="https://github.com/hanfamilym1" target='_blank'>GitHub</a> </button>
+            <>
+                <div className='Home'>
+                    <div className="content-info">
+                        <h1>I'm Michael Han</h1>
+                        <h3>FULL STACK DEVELOPER</h3>
+                        <p>Currently located in Utah. I enjoy learning and working on innovative products.</p>
+                    <Button variant="contained" className="home-btn" href="#/contact">Contact Me</Button>
                     </div>
+                    <div className='animated slideInDown image'>
+                            <div id="mikey-img">
+                                <img className='home_image' alt="Michael" src={mikey} />
+                            </div>
+                    </div> 
                 </div>
-            </div>
+                <Footer/>
+            </>
         )
     }
 }

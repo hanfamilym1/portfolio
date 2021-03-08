@@ -1,42 +1,73 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster|Rubik');
+@import url("https://fonts.googleapis.com/css?family=Lobster|Rubik");
 
-
-.Home{
-    width: 100vw;
-    height: 100vh;
-    padding-top: 60px;
+.color-combo {
+  background-color: #264653;
+  background-color: #2a9d8f;
+  background-color: #e9c46a;
+  background-color: #f4a261;
+  background-color: #e76f51;
 }
 
-#michael{
-    margin: auto;
-    font-family: 'Rubik', sans-serif;
-    font-size: 100px;
+.Home {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Rubik", sans-serif;
+  color: #f4a261;
+  margin: 0;
+  height: 80%;
 }
 
-#developer{
-    font-family: 'Lobster', cursive;
-    font-size: 50px;
+.Home h1 {
+  font-size: 100px;
 }
 
-.home_image{
-    width: 400px;
-    margin: auto;
-
+.Home h3 {
+  font-size: 50px;
+}
+.Home p {
+  margin: 15px 0px;
 }
 
+.home_image {
+  width: 400px;
+  border-radius: 20px;
+  margin: 0 auto;
+}
 
+.home-btn {
+  background-color: #f4a261 !important;
+  color: #fff !important;
+}
 /* Media Queries */
 
-@media screen and (min-width: 600px){
-    .home_image{
-        width: 600px;
-        transition: .5s ease-in-out;
-    }
+@media screen and (max-width: 600px) {
+  .Home h1 {
+    font-size: 80px;
+  }
+
+  .Home h3 {
+    font-size: 30px;
+  }
+
+  .Home {
+    margin: 0;
+    padding: 0px 30px;
+    height: 85%;
+  }
+  .home_image {
+    display: none;
+  }
 }
 
-@media screen and (min-width: 1020px){
-    .home_image{
-        width: 900px;
-        transition: .5s ease-in-out;
-    }
+@media screen and (max-width: 1199px) {
+  .Home {
+    margin: 20px 0px;
+    padding: 0px 30px;
+    height: 75%;
+  }
+  .home_image {
+    width: 250px;
+    transition: 0.5s ease-in-out;
+  }
 }
