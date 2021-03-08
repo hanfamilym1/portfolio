@@ -97,7 +97,12 @@ const Contact = () => {
         }, function(error) {
         });
 
-        setTimeout(()=>setSent(false), 2000)
+        setTimeout(()=>{
+            setSent(false)
+            setName('')
+            setEmail('')
+            setMessage('')
+        }, 2000)
     };
 
 
