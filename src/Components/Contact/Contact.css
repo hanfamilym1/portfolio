@@ -11,6 +11,13 @@
 }
 
 /* Media Query */
+@media screen and (max-width: 535px) {
+  .Contact {
+    position: relative;
+    margin: 20px;
+    top: 80px;
+  }
+}
 
 @media screen and (min-width: 720px) {
 }
