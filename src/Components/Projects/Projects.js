@@ -55,7 +55,6 @@ class Projects extends Component {
                     </Card>
                     <Card className="card-root">
                         <CardActionArea className="card-area">
-                            <a className='b' href='https://www.devbuddy.net' target='_blank' rel="noopener noreferrer">
                                 <CardMedia
                                 className="card-media"
                                 image={devbuddy}
@@ -66,7 +65,7 @@ class Projects extends Component {
                                     DevBuddy | Personal Project
                                 </Typography>
                                 <Typography variant="body2" component="p">
-                                    Allows communication with one student to another and see when different activities would be held.  Additionally, I added some features that allowed the administrators to carefully analyze who to help best and what they can do better to help the students.
+                                    Allows communication with one student to another and see when different activities would be held.  Additionally, I added some features that allowed the administrators to carefully analyze who to help best and what they can do better to help the students. Currently reworking this project, is not accessible at this time.  
                                 </Typography>
                                 <Divider className="divider"/>
                                 <Typography variant="body2"component="p">
@@ -76,12 +75,8 @@ class Projects extends Component {
                                     Backend: Node | Express | Postgres
                                 </Typography>
                                 </CardContent>
-                            </a>
                         </CardActionArea>
                         <CardActions>
-                            <Button className="project-btn" variant="contained">
-                                <a className="project-link" href='https://www.devbuddy.net' target='_blank' rel="noopener noreferrer" >Website</a>
-                            </Button>
                             <Button className="project-btn" variant="contained">
                                 <a className="project-link" href="https://github.com/hanfamilym1/personalproject" target='_blank' rel="noopener noreferrer">Github</a>
                             </Button>
