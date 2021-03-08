@@ -86,7 +86,7 @@ const Contact = () => {
                 setMessage(event.target.value)
                 break;
             default: 
-                break;
+                 return null
         }
     }
 
