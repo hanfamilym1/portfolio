@@ -9,7 +9,6 @@ import Typing from './Components/Projects/Typing/Typing'
 
 
 export default
-   
         <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/project' exact component={Projects} />

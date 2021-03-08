@@ -4,7 +4,6 @@ import './App.css';
 import route from './route'
 import { HashRouter } from 'react-router-dom'
 import Nav from './Components/Nav/Nav'
-import Footer from './Components/Footer/Footer'
 // import { CSSTransition, TransitionGroup } from 'react-transition-group'
 // import { Parallax, Background } from 'react-parallax'
 import Button from '@material-ui/core/Button';

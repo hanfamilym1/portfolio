@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { makeStyles } from '@material-ui/core/styles';
 import './Projects.css'
 import {Link} from 'react-router-dom'
 // import devbuddy from './DevBuddy.mp4'

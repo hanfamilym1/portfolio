@@ -7,7 +7,6 @@ import Footer from '../Footer/Footer'
 import {useForm} from 'react-hook-form'
 import Alert from '@material-ui/lab/Alert';
 import emailjs from 'emailjs-com';
-import { FullscreenExit } from '@material-ui/icons';
 emailjs.init("user_fCakUmLwLpgtQIeBOV4pI");
 
 const useStyles = makeStyles({
