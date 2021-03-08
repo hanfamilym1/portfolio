@@ -17,6 +17,7 @@
     "massive": "^5.11.2",
     "react": "^16.14.0",
     "react-clipboard.js": "^2.0.16",
+    "react-codemod": "^5.4.3",
     "react-dom": "^16.14.0",
     "react-hamburger-button": "0.0.1",
     "react-hook-form": "^6.15.4",

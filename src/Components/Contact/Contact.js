@@ -66,7 +66,7 @@ const ContactTextFields = withStyles({
     },
   })(TextField);
 
-const contact = () => {
+const Contact = () => {
     const classes = useStyles();
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -84,6 +84,8 @@ const contact = () => {
                 break;
             case 'message':
                 setMessage(event.target.value)
+                break;
+            default: 
                 break;
         }
     }
@@ -171,4 +173,4 @@ const contact = () => {
 
 
 
-export default contact
+export default Contact
