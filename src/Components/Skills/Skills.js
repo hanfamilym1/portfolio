@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './Skills.css'
 import redux from './Redux.png'
-// import react from '../Skills/React.png'
+import react from './React.png'
 import postgres from './Postgres.png'
 import node from './Nodejs.png'
 import javascript from './JS.png'
