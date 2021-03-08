@@ -2,18 +2,16 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import './Nav.css'
 import Button from '@material-ui/core/Button';
-import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
 
 class Nav extends Component {
     render() {
         return (
-            <div class='Nav'>
-                <Link to='/' style={{textDecoration: 'none'}}><Button color="primary" style={{ color: '#34ACE0', marginRight: '15px'}}>Home</Button></Link>
-                <Link to='/project' style={{textDecoration: 'none'}}><Button color="primary"  style={{marginTop: '10px', color: '#34ACE0',  marginRight: '15px'}}>Projects</Button></Link>
-                <Link to='/skills' style={{textDecoration: 'none'}}><Button color="primary"  style={{marginTop: '10px', color: '#34ACE0',  marginRight: '15px'}}>Skills</Button></Link>
-                <Link to='/about' style={{textDecoration: 'none'}}><Button color="primary" style={{marginTop: '10px', color: '#34ACE0', marginRight: '15px'}}>About</Button></Link>
-                <Link to='/contact' style={{textDecoration: 'none'}}><Button color="primary"  style={{marginTop: '10px', color: '#34ACE0', marginRight: '15px'}}>Contact</Button></Link>
+            <div className='Nav'>
+                <Link to='/' className='nav-btns'><Button className='nav-btn'>Home</Button></Link>
+                <Link to='/project' className='nav-btns'><Button className='nav-btn'>Projects</Button></Link>
+                <Link to='/skills' className='nav-btns' ><Button className='nav-btn'>Skills</Button></Link>
+                <Link to='/about' className='nav-btns' ><Button className='nav-btn'>About</Button></Link>
+                <Link to='/contact' className='nav-btns' ><Button className='nav-btn'>Contact</Button></Link>
             </div>
         )
     }

@@ -1,67 +1,66 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 
-.Skills{
-    height: 100vh;
-    
+.Skills {
+  height: 100vh;
 }
 
-.title-center{
-    font-family: 'Open Sans', sans-serif;
-    margin-top: 10px;
+.title-center {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 10px;
+  color: #f4a261;
 }
 
-.skills-whole{
-   display: flex;
-   justify-content: center;
-    margin: auto;
-   padding-top: 90px;
-   /* padding-left: 25px; */
-   /* padding-top: 80px; */
-   /* padding-left: 140px; */
-   flex-wrap: wrap;
-   width: 350px;
+.skills-whole {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 90px;
+  /* padding-left: 25px; */
+  /* padding-top: 80px; */
+  /* padding-left: 140px; */
+  flex-wrap: wrap;
+  width: 350px;
 }
 
-.skills-img{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+.skills-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
 
-.skills-imgs{
-    height: 70px;
-    /* height: 100px; */
+.skills-imgs {
+  height: 70px;
+  /* height: 100px; */
 
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 /* Media Queries */
 
-@media screen and (min-width: 500px){
-   
-    .skills-imgs{
-        height: 80px;
-        transition: .2s ease-in-out;
-    }
+@media screen and (min-width: 500px) {
+  .skills-imgs {
+    height: 80px;
+    transition: 0.2s ease-in-out;
+  }
 }
 
-@media screen and (min-width: 720px){
-    .skills-whole{
-        width: 500px;
-    }
-    .skills-imgs{
-        height:90px;
-        transition: .2s ease-in-out;
-    }
+@media screen and (min-width: 720px) {
+  .skills-whole {
+    width: 500px;
+  }
+  .skills-imgs {
+    height: 90px;
+    transition: 0.2s ease-in-out;
+  }
 }
 
-@media screen and (min-width: 1200px){
-    .skills-whole{
-        width: 550px;
-    }
-    .skills-imgs{
-        height:100px;
-        transition: .2s ease-in-out;
-    }
+@media screen and (min-width: 1200px) {
+  .skills-whole {
+    width: 550px;
+  }
+  .skills-imgs {
+    height: 100px;
+    transition: 0.2s ease-in-out;
+  }
 }
