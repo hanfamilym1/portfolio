@@ -13,7 +13,7 @@
     "dotenv": "^6.2.0",
     "emailjs-com": "^2.6.4",
     "express": "^4.17.1",
-    "express-session": "^1.17.1",
+    "express-session": "^1.18.2",
     "massive": "^5.11.2",
     "react": "^16.14.0",
     "react-clipboard.js": "^2.0.16",
