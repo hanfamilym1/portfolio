@@ -14,7 +14,7 @@
     "emailjs-com": "^2.6.4",
     "express": "^4.17.1",
     "express-session": "^1.17.1",
-    "massive": "^5.11.2",
+    "massive": "^6.11.3",
     "react": "^16.14.0",
     "react-clipboard.js": "^2.0.16",
     "react-codemod": "^5.4.3",
